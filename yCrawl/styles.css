@@ -69,10 +69,12 @@ h5{
     text-decoration: underline double #ffeb59;
 }
 .scroll-max {
-    font-size: smaller;
     overflow: auto; 
     max-height: 166px; 
     word-wrap: normal;
+}
+pre.scroll-max {
+    font-size: x-small;
 }
 
   
