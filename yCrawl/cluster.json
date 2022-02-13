@@ -1,0 +1,15 @@
+{
+    "desc": "Defines server name, location. It is served online at bucket, not here",
+    "clusters": {
+        "ycrawl-1-pl": {
+            "batch": 0,
+            "name": "ycrawl-1-pl",
+            "zone": "europe-central2-b"
+        },
+        "ycrawl-2-fi": {
+            "batch": 1,
+            "name": "ycrawl-2-fi",
+            "zone": "europe-north1-b"
+        }
+    }
+}
