@@ -11,5 +11,6 @@
             "name": "ycrawl-2-fi",
             "zone": "europe-north1-b"
         }
-    }
+    },
+    "keep-alive": True
 }
