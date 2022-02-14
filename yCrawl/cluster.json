@@ -1,5 +1,5 @@
 {
-    "desc": "Defines server name, location. It is served online at bucket, not here",
+    "desc": "Defines server name, location. There is 5-minute cache.",
     "clusters": {
         "ycrawl-1-pl": {
             "batch": 0,
@@ -12,5 +12,5 @@
             "zone": "europe-north1-b"
         }
     },
-    "keep-alive": True
+    "keep-alive": 1
 }
