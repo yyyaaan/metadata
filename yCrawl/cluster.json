@@ -12,5 +12,5 @@
             "zone": "europe-north1-b"
         }
     },
-    "keep-alive": 1
+    "keep-alive": "2022-02-14T00:00:00.123456z"
 }
