@@ -4,7 +4,7 @@
     "scope": "test",
     "desc-scope": "WORKER should set scope inplace. Mode[local/test/prod]",
 
-    "delay-target": 60
+    "delay-target": 60,
     "max-retry": 2,
     "retry-threshold": 10,
     "desc-rety": "defines how many times should retry a single webpage, and VM starts only when pending jobs > threshold",
@@ -30,7 +30,7 @@
 
     "active-qr-config": {
         "center-days": 15,
-        "origins": "ARN WAW",
+        "origins": "ARN",
         "destinations": "MEL SYD",
         "desc": "QR shows a two-week calendar, so define centering day"
     },
