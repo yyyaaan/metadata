@@ -18,7 +18,7 @@
         {
             "batch": 2,
             "name": "azure-test-01",
-            "zone": "europenorth",
+            "zone": "northeurope",
             "resource": "VM-Workers",
             "provider": "Azure"
         },
@@ -51,6 +51,7 @@
     "active-hotel-config": {
         "hotel-nights": [
             "7,Pullman Maldives",
+            "6,Pullman Maldives",
             "5,Pullman Maldives",
             "4,Meridien Pines",
             "4,Four Seasons Bora",
