@@ -16,6 +16,12 @@
     
     "cluster": [
         {
+            "batch": 2,
+            "name": "azure-test-01",
+            "resource": "VM-Workers",
+            "provider": "Azure"
+        },
+        {
             "batch": 0,
             "name": "ycrawl-1-pl",
             "zone": "europe-central2-b",
