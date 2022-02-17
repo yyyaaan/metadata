@@ -3,7 +3,7 @@
     
     "scope": "test",
     "max-retry": 2,
-    "retry-threshold": 99,
+    "retry-threshold": 9,
     "desc-rety": "defines how many times should retry a single webpage, and VM starts only when pending jobs > threshold",
     
     "worker-profile": {
