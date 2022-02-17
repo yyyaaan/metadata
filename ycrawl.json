@@ -7,7 +7,7 @@
     "desc-rety": "defines how many times should retry a single webpage, and VM starts only when pending jobs > threshold",
     
     "worker-profile": {
-        "delay-target": 60,
+        "delay-target": 50,
         "stage-size": 20,
         "COORDINATOR_ENDPOINT": "https://yyyaaannn.ew.r.appspot.com/coordinator",
         "COMPLETION_ENDPOINT": "https://yyyaaannn.ew.r.appspot.com/notifydone",
