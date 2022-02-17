@@ -44,8 +44,8 @@
 
     "active-qr-config": {
         "center-days": 15,
-        "origins": "ARN WAW",
-        "destinations": "MEL SYD",
+        "origins": "ARN,WAW",
+        "destinations": "MEL,SYD",
         "desc": "QR shows a two-week calendar, so define centering day"
     },
     "active-hotel-config": {
