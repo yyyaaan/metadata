@@ -16,6 +16,13 @@
     
     "cluster": [
         {
+            "batch": 3,
+            "name": "azure-text-02",
+            "zone": "northeurope",
+            "resource": "VM-Workers",
+            "provider": "Azure"
+        },
+        {
             "batch": 2,
             "name": "azure-test-01",
             "zone": "northeurope",
