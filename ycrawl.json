@@ -45,20 +45,19 @@
         }
     ],
     
-    "date-range-min": 231,
-    "date-range-max": 287,
+    "date-range-min": 28,
+    "date-range-max": 343,
     "desc-date-range": "the range applies to both hotel and flight, was 28-343",
 
     "active-qr-config": {
         "center-days": 15,
-        "origins": "ARN,WAW",
+        "origins": "ARN,WAW,HEL,OSL",
         "destinations": "MEL,SYD",
         "desc": "QR shows a two-week calendar, so define centering day"
     },
     "active-hotel-config": {
         "hotel-nights": [
             "7,Pullman Maldives",
-            "6,Pullman Maldives",
             "5,Pullman Maldives",
             "4,Meridien Pines",
             "4,Four Seasons Bora",
