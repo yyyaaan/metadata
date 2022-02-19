@@ -8,13 +8,20 @@
     
     "worker-profile": {
         "delay-target": 50,
-        "stage-size": 20,
+        "stage-size": 50,
         "COORDINATOR_ENDPOINT": "https://yyyaaannn.ew.r.appspot.com/coordinator",
         "COMPLETION_ENDPOINT": "https://yyyaaannn.ew.r.appspot.com/notifydone",
         "desc": "only this section sent to individual worker"
     },
     
     "cluster": [
+        {
+            "batch": 4,
+            "name": "azure-test-03",
+            "zone": "northeurope",
+            "resource": "VM-Workers",
+            "provider": "Azure"
+        },
         {
             "batch": 3,
             "name": "azure-text-02",
@@ -51,17 +58,20 @@
 
     "active-qr-config": {
         "center-days": 15,
-        "origins": "ARN,WAW,HEL,OSL",
-        "destinations": "MEL,SYD",
+        "origins": "ARN,TLL,HEL,OSL",
+        "destinations": "MEL,SYD,CBR",
         "desc": "QR shows a two-week calendar, so define centering day"
     },
     "active-hotel-config": {
         "hotel-nights": [
             "7,Pullman Maldives",
             "5,Pullman Maldives",
-            "4,Meridien Pines",
+            "4,Regis Bora",
             "4,Four Seasons Bora",
-            "4,Hilton Moorea"
+            "4,Sofitel Moorea",
+            "4,Hilton Moorea",
+            "4,Sheraton Tokoriki",
+            "4,Meridien Pines"
         ],
         "temporarily-deactivated":[
         ]
