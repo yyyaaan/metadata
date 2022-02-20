@@ -16,22 +16,22 @@
     
     "cluster": [
         {
-            "batch": 4,
-            "name": "azure-test-03",
+            "batch": 2,
+            "name": "azure-test-01",
             "zone": "northeurope",
             "resource": "VM-Workers",
             "provider": "Azure"
         },
         {
             "batch": 3,
-            "name": "azure-text-02",
+            "name": "azure-test-02",
             "zone": "northeurope",
             "resource": "VM-Workers",
             "provider": "Azure"
         },
         {
-            "batch": 2,
-            "name": "azure-test-01",
+            "batch": 4,
+            "name": "azure-test-03",
             "zone": "northeurope",
             "resource": "VM-Workers",
             "provider": "Azure"
