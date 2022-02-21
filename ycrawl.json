@@ -16,7 +16,7 @@
 
     "cluster": [
         {
-            "batch": 5,
+            "batch": 4,
             "name": "ycrawl-3-se",
             "zone": "eu-north-1c",
             "resource": "i-05baaec0fe7fe4d66",
@@ -32,13 +32,6 @@
         {
             "batch": 3,
             "name": "azure-test-02",
-            "zone": "northeurope",
-            "resource": "VM-Workers",
-            "provider": "Azure"
-        },
-        {
-            "batch": 4,
-            "name": "azure-test-03",
             "zone": "northeurope",
             "resource": "VM-Workers",
             "provider": "Azure"
