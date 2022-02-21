@@ -13,8 +13,15 @@
         "COMPLETION_ENDPOINT": "https://yyyaaannn.ew.r.appspot.com/notifydone",
         "desc": "only this section sent to individual worker"
     },
-    
+
     "cluster": [
+        {
+            "batch": 5,
+            "name": "ycrawl-3-se",
+            "zone": "eu-north-1c",
+            "resource": "i-05baaec0fe7fe4d66",
+            "provider": "AWS"
+        },
         {
             "batch": 2,
             "name": "azure-test-01",
