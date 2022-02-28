@@ -7,6 +7,8 @@
     "retry-threshold": 3,
     "desc-rety": "defines how many times should retry a single webpage, and VM starts only when pending jobs > threshold",
     
+    "DATA_ENDPOINT": "http://app.yanpan.fi/rundata",
+    
     "worker-profile": {
         "delay-target": 50,
         "stage-size": 50,
@@ -16,34 +18,6 @@
     },
 
     "cluster": [
-        {
-            "batch": 5,
-            "name": "ycrawl-4-fr",
-            "zone": "eu-west-3b",
-            "resource": "i-07a9cb47522f26bf8",
-            "provider": "AWS"
-        },
-        {
-            "batch": 4,
-            "name": "ycrawl-3-se",
-            "zone": "eu-north-1c",
-            "resource": "i-05baaec0fe7fe4d66",
-            "provider": "AWS"
-        },
-        {
-            "batch": 2,
-            "name": "azure-test-01",
-            "zone": "northeurope",
-            "resource": "VM-Workers",
-            "provider": "Azure"
-        },
-        {
-            "batch": 3,
-            "name": "azure-test-02",
-            "zone": "northeurope",
-            "resource": "VM-Workers",
-            "provider": "Azure"
-        },
         {
             "batch": 0,
             "name": "ycrawl-1-pl",
@@ -57,6 +31,34 @@
             "zone": "europe-north1-b",
             "resource": "default",
             "provider": "GCP"
+        },
+        {
+            "batch": 2,
+            "name": "ycrawl-3-se",
+            "zone": "eu-north-1c",
+            "resource": "i-05baaec0fe7fe4d66",
+            "provider": "AWS"
+        },
+        {
+            "batch": 3,
+            "name": "ycrawl-4-fr",
+            "zone": "eu-west-3b",
+            "resource": "i-07a9cb47522f26bf8",
+            "provider": "AWS"
+        },
+        {
+            "batch": 4,
+            "name": "ycrawl-5-nl",
+            "zone": "westeurope",
+            "resource": "VM-Workers",
+            "provider": "Azure"
+        },
+        {
+            "batch": 5,
+            "name": "ycrawl-6-ie",
+            "zone": "northeurope",
+            "resource": "VM-Workers",
+            "provider": "Azure"
         }
     ],
     
