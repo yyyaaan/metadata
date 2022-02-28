@@ -50,14 +50,14 @@
             "batch": 4,
             "name": "ycrawl-5-nl",
             "zone": "westeurope",
-            "resource": "VM-Workers",
+            "resource": "yCrawl",
             "provider": "Azure"
         },
         {
             "batch": 5,
             "name": "ycrawl-6-ie",
             "zone": "northeurope",
-            "resource": "VM-Workers",
+            "resource": "yCrawl",
             "provider": "Azure"
         }
     ],
