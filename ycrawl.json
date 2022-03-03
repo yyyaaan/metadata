@@ -21,6 +21,7 @@
     },
     
     "desc-data-processor": "dedicated data processor vm, usually only 1 or 0(local) is used",
+    "data-processor-active": "ycrawl-data-processor",
     "data-processor": [
         {
             "name": "ycrawl-data-processor",
