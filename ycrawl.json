@@ -1,11 +1,11 @@
 {
     "desc-main": "There is 5-minute cache. Mode[local/test/prod] to be sent to all",
-    "special-exchange-rates": {
-	"EUR": 1.0,
-	"XPF": 119.15,
-	"FJD": 2.38,
-	"AED": 4.12
-    },
+    "special-exchange-rates": [
+	{"currency": "EUR", "rate": 1.0 },
+	{"currency": "XPF", "rate": 119.15 },
+	{"currency": "FJD", "rate": 2.28 },
+	{"currency": "AED", "rate": 4.01 }
+    ],
     
     "scope": "prod1",
     "bucket": "staging.yyyaaannn.appspot.com",
