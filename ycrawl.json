@@ -68,15 +68,15 @@
         },
         {
             "batch": 4,
-            "name": "ycrawl-5-nl",
-            "zone": "westeurope",
+            "name": "ycrawl-5r-ie",
+            "zone": "northeurope",
             "resource": "yCrawl",
             "provider": "Azure"
         },
         {
             "batch": 5,
-            "name": "ycrawl-6-ie",
-            "zone": "northeurope",
+            "name": "ycrawl-6r-nl",
+            "zone": "westeurope",
             "resource": "yCrawl",
             "provider": "Azure"
         }
