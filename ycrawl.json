@@ -79,6 +79,20 @@
             "zone": "westeurope",
             "resource": "yCrawl",
             "provider": "Azure"
+        },
+        {
+            "batch": 6,
+            "name": "ycrawl-7-csc",
+            "zone": "nova",
+            "resource": "yCrawl",
+            "provider": "CSC"
+        },
+        {
+            "batch": 7,
+            "name": "ycrawl-8-csc",
+            "zone": "nova",
+            "resource": "yCrawl",
+            "provider": "CSC"
         }
     ],
     
