@@ -16,7 +16,7 @@
     "desc-rety": "defines how many times should retry a single webpage, and VM starts only when pending jobs > threshold",
     
     "DATA_ENDPOINT": "https://app.yanpan.fi/rundata",
-    "MSG_ENDPOINT": "https://app.yanpan.fi/sendline",
+    "MSG_ENDPOINT": "https://yanpan.fi/msg/LINE/",
     
     "worker-profile": {
         "delay-target": 50,
